@@ -11,8 +11,7 @@ public class Hash
         set.add("Ajay");
         set.add(null);                            //Only one null value it allows
 
-        Iterator<String> itr = set.iterator();    //it won't preserve insertion order
-        for (String i:set)
+        for (String i:set)                        //it won't preserve insertion order
         {
             System.out.println("Employee name: " + i);
         }
