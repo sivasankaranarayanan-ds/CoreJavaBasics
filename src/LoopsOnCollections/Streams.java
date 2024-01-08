@@ -2,7 +2,6 @@ package LoopsOnCollections;
 import java.util.*;
 
 //Why stream?
-        //T
         //If you change the existing stream or create the new stream,
         //it will not affect the list which is you create already the collection.
         //Once you consume the stream, you can't reuse it then it will close automatically.
